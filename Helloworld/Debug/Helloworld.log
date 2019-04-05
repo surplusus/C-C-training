@@ -1,4 +1,4 @@
-﻿  stdafx.cpp
-  Helloworld.cpp
+﻿  printf.cpp
+c:\work\c-c-training\helloworld\printf.cpp(23): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'int'
   Helloworld.vcxproj -> C:\Work\C-C-training\Helloworld\Debug\Helloworld.exe
   Helloworld.vcxproj -> C:\Work\C-C-training\Helloworld\Debug\Helloworld.pdb (Full PDB)
