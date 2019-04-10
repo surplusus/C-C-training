@@ -13,7 +13,7 @@ int main()
 	// gets_s(참조변수, 메모리할당길이)
 	gets_s(szName, sizeof(szName));
 	printf("당신의 이름은 ");
-	puts(szName);
+	puts(szName + "입니다.");
 	puts("입니다. \n");
 
 	return 0;

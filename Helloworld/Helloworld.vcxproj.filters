@@ -32,12 +32,6 @@
     <ClCompile Include="Helloworld.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="datatype2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="datatype1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="put_get.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -50,13 +44,46 @@
     <ClCompile Include="datatype.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="printf.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="sizeof.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="gets_s.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="work_printf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_datatype.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="printf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scanf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_scanf1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_scanf2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer_ex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="work_scanf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_4_9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_4_9_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_operator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_operator2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
