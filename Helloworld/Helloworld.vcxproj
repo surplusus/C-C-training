@@ -267,6 +267,11 @@
     <ClCompile Include="arraycross.cpp">
       <SubType>
       </SubType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="thisistest.cpp">
+      <SubType>
+      </SubType>
     </ClCompile>
     <ClCompile Include="sort1.cpp">
       <SubType>
