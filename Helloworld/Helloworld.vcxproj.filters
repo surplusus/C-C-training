@@ -155,8 +155,5 @@
     <ClCompile Include="arraycross.cpp">
       <Filter>Source Files\course</Filter>
     </ClCompile>
-    <ClCompile Include="thisistest.cpp">
-      <Filter>Source Files\course</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
