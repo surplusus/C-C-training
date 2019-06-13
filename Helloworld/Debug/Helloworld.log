@@ -1,3 +1,3 @@
-﻿  arraycross.cpp
-  Helloworld.vcxproj -> C:\Work\C-C-training\Helloworld\Debug\Helloworld.exe
-  Helloworld.vcxproj -> C:\Work\C-C-training\Helloworld\Debug\Helloworld.pdb (Full PDB)
+﻿  C++ 기본2.cpp
+c:\users\inha\source\repos\c-c-training\helloworld\c++ 기본2.cpp(45): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Helloworld.vcxproj -> C:\Users\Inha\Source\Repos\C-C-training\Helloworld\Debug\Helloworld.exe

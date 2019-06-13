@@ -22,9 +22,54 @@
     <Filter Include="Source Files\homework">
       <UniqueIdentifier>{05f1a1ae-966b-4766-9954-ccec891edb62}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\course\older">
+      <UniqueIdentifier>{c071028e-804f-41ca-9ad1-212fa6ec5f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\course\5_21">
+      <UniqueIdentifier>{21fe8e00-ef39-4e42-afd0-5a9b5ad5f3ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\course\5_22">
+      <UniqueIdentifier>{92d1e430-28e2-45be-b1ac-eb3e32bb6cbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\course\5_23">
+      <UniqueIdentifier>{99c74ba2-9429-4067-8572-8ad40e5369ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\course\5_24">
+      <UniqueIdentifier>{81bd30ef-211b-44b8-a0c8-e371018db218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\course\5_28">
+      <UniqueIdentifier>{cc980553-264b-423e-b2a7-1ca1640783a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\course\5_29">
+      <UniqueIdentifier>{b797e4ca-4772-4d9b-8146-0973c20ea48b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\course\5_31">
+      <UniqueIdentifier>{00c540d6-b7b7-4318-b3c6-fb7acc782f45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\course\6_1">
+      <UniqueIdentifier>{68f0360c-17d0-4732-8aae-4cedfaed20d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\course\6_4">
+      <UniqueIdentifier>{3ea0dc78-1cbb-4f96-990c-fec77a578236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\course\6_5">
+      <UniqueIdentifier>{1f7236b0-f367-4410-a491-79616959dbc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\course\6_7">
+      <UniqueIdentifier>{1d8a5a04-ca7f-4cdb-9777-6eab720e1ea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\course\6_11">
+      <UniqueIdentifier>{921fae4a-a2ce-4b2b-a53e-86fa99c62d7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\course\6_12">
+      <UniqueIdentifier>{f96f454a-228a-4149-b4c6-997bb130678f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
+    <Text Include="calc.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -33,34 +78,67 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="file1.h">
+      <Filter>Source Files\course\5_24</Filter>
+    </ClInclude>
+    <ClInclude Include="namesp.h">
+      <Filter>Source Files\course\5_24</Filter>
+    </ClInclude>
+    <ClInclude Include="stock00.h">
+      <Filter>Source Files\course\5_28</Filter>
+    </ClInclude>
+    <ClInclude Include="stock10.h">
+      <Filter>Source Files\course\5_28</Filter>
+    </ClInclude>
+    <ClInclude Include="stock20.h">
+      <Filter>Source Files\course\5_28</Filter>
+    </ClInclude>
+    <ClInclude Include="account.h">
+      <Filter>Source Files\course\5_28</Filter>
+    </ClInclude>
+    <ClInclude Include="Move.h">
+      <Filter>Source Files\course\5_28</Filter>
+    </ClInclude>
+    <ClInclude Include="strngbad.h">
+      <Filter>Source Files\course\5_31</Filter>
+    </ClInclude>
+    <ClInclude Include="string1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="acctabc.h">
+      <Filter>Source Files\course\6_7</Filter>
+    </ClInclude>
+    <ClInclude Include="dma.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="workermi.h">
+      <Filter>Source Files\course\6_11</Filter>
+    </ClInclude>
+    <ClInclude Include="studenti.h">
+      <Filter>Source Files\course\6_11</Filter>
+    </ClInclude>
+    <ClInclude Include="studentc.h">
+      <Filter>Source Files\course\6_11</Filter>
+    </ClInclude>
+    <ClInclude Include="brass.h">
+      <Filter>Source Files\course\6_5</Filter>
+    </ClInclude>
+    <ClInclude Include="tabtenn1.h">
+      <Filter>Source Files\course\6_5</Filter>
+    </ClInclude>
+    <ClInclude Include="stacktp.h">
+      <Filter>Source Files\course\6_11</Filter>
+    </ClInclude>
+    <ClInclude Include="wineh.h">
+      <Filter>Source Files\course\6_11</Filter>
+    </ClInclude>
+    <ClInclude Include="Tv.h">
+      <Filter>Source Files\course\6_12</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="datatype.cpp">
-      <Filter>Source Files\course</Filter>
-    </ClCompile>
-    <ClCompile Include="gets_s.cpp">
-      <Filter>Source Files\course</Filter>
-    </ClCompile>
-    <ClCompile Include="Helloworld.cpp">
-      <Filter>Source Files\course</Filter>
-    </ClCompile>
-    <ClCompile Include="ifStatement.cpp">
-      <Filter>Source Files\course</Filter>
-    </ClCompile>
-    <ClCompile Include="printf.cpp">
-      <Filter>Source Files\course</Filter>
-    </ClCompile>
-    <ClCompile Include="put_get.cpp">
-      <Filter>Source Files\course</Filter>
-    </ClCompile>
-    <ClCompile Include="scanf.cpp">
-      <Filter>Source Files\course</Filter>
-    </ClCompile>
-    <ClCompile Include="sizeof.cpp">
-      <Filter>Source Files\course</Filter>
     </ClCompile>
     <ClCompile Include="ex_4_9.cpp">
       <Filter>Source Files\exercise</Filter>
@@ -89,9 +167,6 @@
     <ClCompile Include="ex_scanf2.cpp">
       <Filter>Source Files\exercise</Filter>
     </ClCompile>
-    <ClCompile Include="pointer.cpp">
-      <Filter>Source Files\course</Filter>
-    </ClCompile>
     <ClCompile Include="work_scanf.cpp">
       <Filter>Source Files\homework</Filter>
     </ClCompile>
@@ -101,32 +176,11 @@
     <ClCompile Include="threedigit.cpp">
       <Filter>Source Files\homework</Filter>
     </ClCompile>
-    <ClCompile Include="switchStatement.cpp">
-      <Filter>Source Files\course</Filter>
-    </ClCompile>
-    <ClCompile Include="goto.cpp">
-      <Filter>Source Files\course</Filter>
-    </ClCompile>
-    <ClCompile Include="forloop.cpp">
-      <Filter>Source Files\course</Filter>
-    </ClCompile>
-    <ClCompile Include="forLoop2.cpp">
-      <Filter>Source Files\course</Filter>
-    </ClCompile>
     <ClCompile Include="ex_array.cpp">
       <Filter>Source Files\exercise</Filter>
     </ClCompile>
     <ClCompile Include="ex_forLoop.cpp">
       <Filter>Source Files\exercise</Filter>
-    </ClCompile>
-    <ClCompile Include="dowhile.cpp">
-      <Filter>Source Files\course</Filter>
-    </ClCompile>
-    <ClCompile Include="breakContinue.cpp">
-      <Filter>Source Files\course</Filter>
-    </ClCompile>
-    <ClCompile Include="array.cpp">
-      <Filter>Source Files\course</Filter>
     </ClCompile>
     <ClCompile Include="ex_array2.cpp">
       <Filter>Source Files\exercise</Filter>
@@ -137,9 +191,6 @@
     <ClCompile Include="sleep.cpp">
       <Filter>Source Files\homework</Filter>
     </ClCompile>
-    <ClCompile Include="arrayString2.cpp">
-      <Filter>Source Files\course</Filter>
-    </ClCompile>
     <ClCompile Include="ex_struct_memory.cpp">
       <Filter>Source Files\exercise</Filter>
     </ClCompile>
@@ -149,11 +200,278 @@
     <ClCompile Include="printf_star_with_for.cpp">
       <Filter>Source Files\homework</Filter>
     </ClCompile>
-    <ClCompile Include="sort1.cpp">
-      <Filter>Source Files\course</Filter>
+    <ClCompile Include="array.cpp">
+      <Filter>Source Files\course\older</Filter>
     </ClCompile>
     <ClCompile Include="arraycross.cpp">
-      <Filter>Source Files\course</Filter>
+      <Filter>Source Files\course\older</Filter>
+    </ClCompile>
+    <ClCompile Include="arrayString2.cpp">
+      <Filter>Source Files\course\older</Filter>
+    </ClCompile>
+    <ClCompile Include="breakContinue.cpp">
+      <Filter>Source Files\course\older</Filter>
+    </ClCompile>
+    <ClCompile Include="datatype.cpp">
+      <Filter>Source Files\course\older</Filter>
+    </ClCompile>
+    <ClCompile Include="dowhile.cpp">
+      <Filter>Source Files\course\older</Filter>
+    </ClCompile>
+    <ClCompile Include="forloop.cpp">
+      <Filter>Source Files\course\older</Filter>
+    </ClCompile>
+    <ClCompile Include="forLoop2.cpp">
+      <Filter>Source Files\course\older</Filter>
+    </ClCompile>
+    <ClCompile Include="gets_s.cpp">
+      <Filter>Source Files\course\older</Filter>
+    </ClCompile>
+    <ClCompile Include="goto.cpp">
+      <Filter>Source Files\course\older</Filter>
+    </ClCompile>
+    <ClCompile Include="Helloworld.cpp">
+      <Filter>Source Files\course\older</Filter>
+    </ClCompile>
+    <ClCompile Include="ifStatement.cpp">
+      <Filter>Source Files\course\older</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer.cpp">
+      <Filter>Source Files\course\older</Filter>
+    </ClCompile>
+    <ClCompile Include="printf.cpp">
+      <Filter>Source Files\course\older</Filter>
+    </ClCompile>
+    <ClCompile Include="put_get.cpp">
+      <Filter>Source Files\course\older</Filter>
+    </ClCompile>
+    <ClCompile Include="scanf.cpp">
+      <Filter>Source Files\course\older</Filter>
+    </ClCompile>
+    <ClCompile Include="sizeof.cpp">
+      <Filter>Source Files\course\older</Filter>
+    </ClCompile>
+    <ClCompile Include="sort1.cpp">
+      <Filter>Source Files\course\older</Filter>
+    </ClCompile>
+    <ClCompile Include="switchStatement.cpp">
+      <Filter>Source Files\course\older</Filter>
+    </ClCompile>
+    <ClCompile Include="ifstream.cpp">
+      <Filter>Source Files\course\5_21</Filter>
+    </ClCompile>
+    <ClCompile Include="calculator.cpp">
+      <Filter>Source Files\exercise</Filter>
+    </ClCompile>
+    <ClCompile Include="arrfunc3.cpp">
+      <Filter>Source Files\course\5_21</Filter>
+    </ClCompile>
+    <ClCompile Include="trave1.cpp">
+      <Filter>Source Files\course\5_21</Filter>
+    </ClCompile>
+    <ClCompile Include="strctptr.cpp">
+      <Filter>Source Files\course\5_21</Filter>
+    </ClCompile>
+    <ClCompile Include="arrobj.cpp">
+      <Filter>Source Files\course\5_21</Filter>
+    </ClCompile>
+    <ClCompile Include="hanoitower.cpp">
+      <Filter>Source Files\exercise</Filter>
+    </ClCompile>
+    <ClCompile Include="funcpointer.cpp">
+      <Filter>Source Files\course\5_22</Filter>
+    </ClCompile>
+    <ClCompile Include="calc_w_funcptr.cpp">
+      <Filter>Source Files\course\5_22</Filter>
+    </ClCompile>
+    <ClCompile Include="firstref.cpp">
+      <Filter>Source Files\course\5_22</Filter>
+    </ClCompile>
+    <ClCompile Include="swaps.cpp">
+      <Filter>Source Files\course\5_22</Filter>
+    </ClCompile>
+    <ClCompile Include="strc_ref.cpp">
+      <Filter>Source Files\course\5_22</Filter>
+    </ClCompile>
+    <ClCompile Include="filefunc.cpp">
+      <Filter>Source Files\course\5_22</Filter>
+    </ClCompile>
+    <ClCompile Include="onlyqueenchese.cpp">
+      <Filter>Source Files\homework</Filter>
+    </ClCompile>
+    <ClCompile Include="PalindromicPrime.cpp">
+      <Filter>Source Files\homework</Filter>
+    </ClCompile>
+    <ClCompile Include="EmirpNumber.cpp">
+      <Filter>Source Files\course\5_22</Filter>
+    </ClCompile>
+    <ClCompile Include="defaultparameter.cpp">
+      <Filter>Source Files\course\5_23</Filter>
+    </ClCompile>
+    <ClCompile Include="leftover.cpp">
+      <Filter>Source Files\course\5_23</Filter>
+    </ClCompile>
+    <ClCompile Include="craps.cpp">
+      <Filter>Source Files\course\5_23</Filter>
+    </ClCompile>
+    <ClCompile Include="temleteoverload.cpp">
+      <Filter>Source Files\course\5_23</Filter>
+    </ClCompile>
+    <ClCompile Include="explicit_specialization.cpp">
+      <Filter>Source Files\course\5_23</Filter>
+    </ClCompile>
+    <ClCompile Include="stringShuffle.cpp">
+      <Filter>Source Files\homework</Filter>
+    </ClCompile>
+    <ClCompile Include="BinarySearchTree.cpp">
+      <Filter>Source Files\course\5_23</Filter>
+    </ClCompile>
+    <ClCompile Include="C++ 기본.cpp">
+      <Filter>Source Files\course\5_23</Filter>
+    </ClCompile>
+    <ClCompile Include="iquoteoverload.cpp">
+      <Filter>Source Files\course\5_24</Filter>
+    </ClCompile>
+    <ClCompile Include="que5_555.cpp">
+      <Filter>Source Files\course\5_24</Filter>
+    </ClCompile>
+    <ClCompile Include="file1.cpp">
+      <Filter>Source Files\course\5_24</Filter>
+    </ClCompile>
+    <ClCompile Include="file2.cpp">
+      <Filter>Source Files\course\5_24</Filter>
+    </ClCompile>
+    <ClCompile Include="heapstack이해.cpp">
+      <Filter>Source Files\course\5_24</Filter>
+    </ClCompile>
+    <ClCompile Include="namesp.cpp">
+      <Filter>Source Files\course\5_24</Filter>
+    </ClCompile>
+    <ClCompile Include="usenmsp.cpp">
+      <Filter>Source Files\course\5_24</Filter>
+    </ClCompile>
+    <ClCompile Include="que5_557.cpp">
+      <Filter>Source Files\course\5_24</Filter>
+    </ClCompile>
+    <ClCompile Include="stock00.cpp">
+      <Filter>Source Files\course\5_28</Filter>
+    </ClCompile>
+    <ClCompile Include="usestock0.cpp">
+      <Filter>Source Files\course\5_28</Filter>
+    </ClCompile>
+    <ClCompile Include="stock10.cpp">
+      <Filter>Source Files\course\5_28</Filter>
+    </ClCompile>
+    <ClCompile Include="stock20.cpp">
+      <Filter>Source Files\course\5_28</Filter>
+    </ClCompile>
+    <ClCompile Include="account.cpp">
+      <Filter>Source Files\course\5_28</Filter>
+    </ClCompile>
+    <ClCompile Include="useaccnt.cpp">
+      <Filter>Source Files\course\5_28</Filter>
+    </ClCompile>
+    <ClCompile Include="Move.cpp">
+      <Filter>Source Files\course\5_28</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertSortImplement.cpp">
+      <Filter>Source Files\course\5_28</Filter>
+    </ClCompile>
+    <ClCompile Include="bitwise_hackrank.cpp">
+      <Filter>Source Files\course\5_28</Filter>
+    </ClCompile>
+    <ClCompile Include="hackrank5-31.cpp">
+      <Filter>Source Files\course\5_31</Filter>
+    </ClCompile>
+    <ClCompile Include="vegnews.cpp">
+      <Filter>Source Files\course\5_31</Filter>
+    </ClCompile>
+    <ClCompile Include="strngbad.cpp">
+      <Filter>Source Files\course\5_31</Filter>
+    </ClCompile>
+    <ClCompile Include="sayings.cpp">
+      <Filter>Source Files\course\5_31</Filter>
+    </ClCompile>
+    <ClCompile Include="placenew2.cpp">
+      <Filter>Source Files\course\5_31</Filter>
+    </ClCompile>
+    <ClCompile Include="HeapSort.cpp">
+      <Filter>Source Files\course\5_31</Filter>
+    </ClCompile>
+    <ClCompile Include="해커랭크문제1.cpp">
+      <Filter>Source Files\course\6_1</Filter>
+    </ClCompile>
+    <ClCompile Include="hangman.cpp">
+      <Filter>Source Files\course\6_4</Filter>
+    </ClCompile>
+    <ClCompile Include="string1.cpp">
+      <Filter>Source Files\course\6_4</Filter>
+    </ClCompile>
+    <ClCompile Include="useString1.cpp">
+      <Filter>Source Files\course\6_4</Filter>
+    </ClCompile>
+    <ClCompile Include="mergesort.cpp">
+      <Filter>Source Files\course\6_4</Filter>
+    </ClCompile>
+    <ClCompile Include="해커랭크문제2.cpp">
+      <Filter>Source Files\course\6_4</Filter>
+    </ClCompile>
+    <ClCompile Include="tabtenn1.cpp">
+      <Filter>Source Files\course\6_5</Filter>
+    </ClCompile>
+    <ClCompile Include="usett1.cpp">
+      <Filter>Source Files\course\6_5</Filter>
+    </ClCompile>
+    <ClCompile Include="brass.cpp">
+      <Filter>Source Files\course\6_5</Filter>
+    </ClCompile>
+    <ClCompile Include="derivedclassprec.cpp">
+      <Filter>Source Files\course\6_5</Filter>
+    </ClCompile>
+    <ClCompile Include="acctabc.cpp">
+      <Filter>Source Files\course\6_7</Filter>
+    </ClCompile>
+    <ClCompile Include="usedma.cpp">
+      <Filter>Source Files\course\6_7</Filter>
+    </ClCompile>
+    <ClCompile Include="dma.cpp">
+      <Filter>Source Files\course\6_7</Filter>
+    </ClCompile>
+    <ClCompile Include="studentc.cpp">
+      <Filter>Source Files\course\6_11</Filter>
+    </ClCompile>
+    <ClCompile Include="use_stuc.cpp">
+      <Filter>Source Files\course\6_11</Filter>
+    </ClCompile>
+    <ClCompile Include="workermi.cpp">
+      <Filter>Source Files\course\6_11</Filter>
+    </ClCompile>
+    <ClCompile Include="use_workmi.cpp">
+      <Filter>Source Files\course\6_11</Filter>
+    </ClCompile>
+    <ClCompile Include="stacktp.cpp">
+      <Filter>Source Files\course\6_11</Filter>
+    </ClCompile>
+    <ClCompile Include="winec.cpp">
+      <Filter>Source Files\course\6_11</Filter>
+    </ClCompile>
+    <ClCompile Include="Tv.cpp">
+      <Filter>Source Files\course\6_12</Filter>
+    </ClCompile>
+    <ClCompile Include="error3.cpp">
+      <Filter>Source Files\course\6_12</Filter>
+    </ClCompile>
+    <ClCompile Include="error4.cpp">
+      <Filter>Source Files\course\6_12</Filter>
+    </ClCompile>
+    <ClCompile Include="constcast.cpp">
+      <Filter>Source Files\course\6_12</Filter>
+    </ClCompile>
+    <ClCompile Include="magicNumInPow.cpp">
+      <Filter>Source Files\course\6_12</Filter>
+    </ClCompile>
+    <ClCompile Include="hackerrankInput.cpp">
+      <Filter>Source Files\course\6_12</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,7 +1,0 @@
-﻿  stdafx.cpp
-  Helloworld.cpp
-  datatype2.cpp
-  datatype1.cpp
-datatype2.obj : error LNK2005: main already defined in Helloworld.obj
-datatype1.obj : error LNK2005: main already defined in Helloworld.obj
-C:\Work\C-C-training\Helloworld\x64\Release\Helloworld.exe : fatal error LNK1169: one or more multiply defined symbols found
